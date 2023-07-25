@@ -52,10 +52,16 @@ body {
 
 .footerDiv {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    /*align-items: center;*/
+    /*justify-content: center;*/
 }
 
 .footerText:nth-child(1){
     width: 50%;
+    text-align: left;
+}
+
+.footerText:nth-child(2){
+    width: 50%;
+    text-align: right;
 }
